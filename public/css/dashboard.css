@@ -1,0 +1,54 @@
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.welcome-section {
+    background: linear-gradient(135deg, #6366f1, #3b82f6);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.welcome-section h1 {
+    margin-bottom: 1rem;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.dashboard-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.dashboard-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.dashboard-card p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.dashboard-button {
+    display: inline-block;
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dashboard-button:hover {
+    background-color: #2563eb;
+}
